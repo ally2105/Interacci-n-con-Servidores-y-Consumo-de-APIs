@@ -4,7 +4,6 @@ const precioInput = document.getElementById("precio");
 const listaProductos = document.getElementById("listaProductos");
 const categoriaSelect = document.getElementById("categoria");
 const guardarButton = document.getElementById("guardar");
-
 let editandoId = null;
 
 function cargarProductos() {
@@ -25,7 +24,7 @@ function cargarProductos() {
                 li.querySelector(".editar").addEventListener("click", () => cargarParaEditar(producto));
                 li.querySelector(".eliminar").addEventListener("click", () => eliminarProducto(producto.id));
 
-                listaProductos.appendChild(li);
+                listaProductos.appendChild(li)
             });
         })
         .catch(err => console.error("Error cargando productos:", err));
@@ -37,7 +36,7 @@ function guardarProducto() {
     const categoria = categoriaSelect.value;
 
     if (!producto || !precio || !categoria) {
-        alert("Por favor rellena todos los campos");
+        alert("Por favor rellena todos los campos correctamente");
         return;
     }
 

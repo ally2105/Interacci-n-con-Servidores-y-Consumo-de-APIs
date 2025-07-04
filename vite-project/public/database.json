@@ -1,18 +1,25 @@
 {
   "Productos": [
     {
-      "Producto": "pera",
-      "Precio": 34515353,
+      "id": "2cd5",
+      "Producto": "banana",
+      "Precio": 100000,
       "Categoria": "Frutas",
-      "FechaCreacion": "2025-07-04T20:42:23.251Z",
-      "id": "416e"
+      "FechaCreacion": "2025-07-04T22:04:53.467Z"
     },
     {
-      "id": "b0cc",
+      "id": "f9d0",
       "Producto": "manzana",
       "Precio": 100000,
       "Categoria": "Frutas",
-      "FechaCreacion": "2025-07-04T20:42:45.027Z"
+      "FechaCreacion": "2025-07-04T22:18:15.989Z"
+    },
+    {
+      "id": "a812",
+      "Producto": "rgrhr",
+      "Precio": 0,
+      "Categoria": "Frutas",
+      "FechaCreacion": "2025-07-04T22:23:32.146Z"
     }
   ]
 }

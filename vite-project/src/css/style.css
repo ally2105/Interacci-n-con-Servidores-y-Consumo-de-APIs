@@ -2,9 +2,10 @@ body {
   font-family: Arial, sans-serif;
   max-width: 100%;
   margin: 0;
-  background-color: #7489ff;
+  background: radial-gradient(circle, #ff7e5f, #feb47b);
   margin-top: 50px;
 }
+
 .contenedor {
   margin: auto;
   text-align: center;
@@ -13,6 +14,7 @@ body {
   padding: 20px;
   background-color: white;
 }
+
 .contenedor input,
 select,
 button {
@@ -21,20 +23,68 @@ button {
   padding: 8px;
   font-size: 16px;
 }
+
 .contenedor button {
   cursor: pointer;
-  background-color: #085fff;
+  background-color: #ff6b46;
   color: white;
   border: none;
   border-radius: 10px;
 }
+
 .contenedor button:hover {
-  background-color: #ff00c8;
+  background-color: #faad99;
 }
+
 .producto {
   background: white;
   padding: 10px;
   margin: 5px 0;
   border-radius: 5px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 853px) {
+  .contenedor {
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: white;
+  }
+
+  .contenedor input,
+  select,
+  button {
+    border-radius: 10px;
+    margin: 3px;
+    padding: 4px;
+    font-size: 16px;
+  }
+
+  /* Para celulares: ancho pequeño */
+  @media (max-width: 540px) {
+    .body {
+      max-width: 100%;
+    }
+
+    .contenedor {
+      margin: auto;
+      text-align: center;
+      width: 250px;
+      border-radius: 30px;
+      padding: 10px;
+      background-color: white;
+    }
+
+    .contenedor input,
+    select,
+    button {
+      border-radius: 10px;
+      margin: 3px;
+      padding: 1px;
+      font-size: 16px;
+    }
+  }
 }
