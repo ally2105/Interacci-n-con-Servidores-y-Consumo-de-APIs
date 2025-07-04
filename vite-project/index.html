@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es"> <!-- Sets the document language to Spanish -->
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CRUD de Productos</title>
+  <meta charset="UTF-8" /> <!-- Character encoding -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- Responsive design -->
+  <title>CRUD de Productos</title> <!-- Page title -->
+
+  <!-- SEO and metadata -->
   <meta name="description"
     content="Aqui encontraras un sistema de gestion de datos donde podras agregar, eliminar y editar productos.">
   <meta name="keywords" content="nuevo, desarrollo,crud">
@@ -13,21 +15,26 @@
   <meta name="copyright" content=" 2026 ally2105. Todos los derechos reservados">
   <meta name="sitedomain" content="https://crud.com">
   <meta name="theme-color" content="#ffffff">
+
+  <!-- CSS file -->
   <link rel="stylesheet" href="./src/css/style.css">
 </head>
 
 <body>
   <div class="contenedor">
-    <h1>GESTIÓN DE DATOS</h1>
+    <h1>GESTIÓN DE DATOS</h1> <!-- Main title -->
 
+    <!-- Product name input -->
     <label for="nombre">Nombre del producto</label><br>
     <input id="nombre" placeholder="Nombre del producto" />
     <br>
 
+    <!-- Product price input -->
     <label for="precio">Precio</label><br>
     <input id="precio" type="number" placeholder="Precio" />
     <br>
 
+    <!-- Product category select -->
     <label for="categoria">Categoría</label><br>
     <select id="categoria">
       <option value="Frutas">Frutas</option>
@@ -40,12 +47,15 @@
     </select>
     <br><br>
 
+    <!-- Button to add product -->
     <button id="guardar">Agregar producto</button>
 
+    <!-- Product list display -->
     <h2>Lista de productos</h2>
     <ul id="listaProductos"></ul>
   </div>
 
+  <!-- JavaScript file -->
   <script src="src/js/main.js"></script>
 </body>
 

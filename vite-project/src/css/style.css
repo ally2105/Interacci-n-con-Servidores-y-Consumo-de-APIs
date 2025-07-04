@@ -63,7 +63,6 @@ button {
     font-size: 16px;
   }
 
-  /* Para celulares: ancho pequeño */
   @media (max-width: 540px) {
     .body {
       max-width: 100%;

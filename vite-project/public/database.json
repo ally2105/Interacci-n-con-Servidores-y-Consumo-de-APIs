@@ -1,25 +1,32 @@
 {
   "Productos": [
     {
-      "id": "2cd5",
-      "Producto": "banana",
-      "Precio": 100000,
+      "id": "e38f",
+      "Producto": "pera",
+      "Precio": 121435,
       "Categoria": "Frutas",
-      "FechaCreacion": "2025-07-04T22:04:53.467Z"
+      "FechaCreacion": "2025-07-04T23:06:36.636Z"
     },
     {
-      "id": "f9d0",
+      "id": "f1c6",
       "Producto": "manzana",
-      "Precio": 100000,
+      "Precio": 10000000000,
       "Categoria": "Frutas",
-      "FechaCreacion": "2025-07-04T22:18:15.989Z"
+      "FechaCreacion": "2025-07-04T23:08:54.924Z"
     },
     {
-      "id": "a812",
-      "Producto": "rgrhr",
-      "Precio": 0,
+      "id": "0fef",
+      "Producto": "bana",
+      "Precio": 2424244,
       "Categoria": "Frutas",
-      "FechaCreacion": "2025-07-04T22:23:32.146Z"
+      "FechaCreacion": "2025-07-04T23:13:31.156Z"
+    },
+    {
+      "id": "b843",
+      "Producto": "pollo",
+      "Precio": 3522656,
+      "Categoria": "Carnes",
+      "FechaCreacion": "2025-07-04T23:14:55.739Z"
     }
   ]
 }

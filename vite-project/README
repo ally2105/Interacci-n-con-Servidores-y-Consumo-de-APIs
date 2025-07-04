@@ -1,0 +1,41 @@
+# CRUD Product Management
+
+A simple web application for managing products with basic CRUD operations: Create, Read, Update, and Delete.
+Developed with pure HTML, CSS, and JavaScript, it communicates with a REST API.
+
+---
+
+## Features
+
+- Add new products with name, price, and category.
+- Edit existing products.
+- Delete products with confirmation.
+- Display the full list of products with the creation date.
+- Responsive and easy-to-use interface.
+
+---
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- REST API
+
+## Installation and Use
+
+1. Clone the repository or download the source code.
+2. Make sure you have a running REST API.
+3. Open the `index.html` file in your browser.
+4. Use the interface to add, edit, or delete products.
+
+---
+
+## API Requirements
+
+The backend API must support the following endpoints:
+
+- `GET /Products` — get the list of products
+- `POST /Products` — add a new product
+- `PUT /Products/:id` — update an existing product
+- `DELETE /Products/:id` — delete a product
