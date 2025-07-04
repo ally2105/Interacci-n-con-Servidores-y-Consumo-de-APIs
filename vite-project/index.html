@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CRUD de Productos</title>
+  <meta name="description"
+    content="Aqui encontraras un sistema de gestion de datos donde podras agregar, eliminar y editar productos.">
+  <meta name="keywords" content="nuevo, desarrollo,crud">
+  <meta name="author" content="Allison Pauleth Segrera Pardo">
+  <meta name="designer" content="Allison Pauleth Segrera Pardo">
+  <meta name="copyright" content=" 2026 ally2105. Todos los derechos reservados">
+  <meta name="sitedomain" content="https://crud.com">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+  <div class="contenedor">
+    <h1>GESTIÓN DE DATOS</h1>
+
+    <label for="nombre">Nombre del producto</label><br>
+    <input id="nombre" placeholder="Nombre del producto" />
+    <br>
+
+    <label for="precio">Precio</label><br>
+    <input id="precio" type="number" placeholder="Precio" />
+    <br>
+
+    <label for="categoria">Categoría</label><br>
+    <select id="categoria">
+      <option value="Frutas">Frutas</option>
+      <option value="Bebidas">Bebidas</option>
+      <option value="Carnes">Carnes</option>
+      <option value="Aseo personal">Aseo personal</option>
+      <option value="Mecatos">Mecatos</option>
+      <option value="Verduras">Verduras</option>
+      <option value="Otra opcion">Otra opción</option>
+    </select>
+    <br><br>
+
+    <button id="guardar">Agregar producto</button>
+
+    <h2>Lista de productos</h2>
+    <ul id="listaProductos"></ul>
+  </div>
+
+  <script src="./public/js/main.js"></script>
+</body>
+
+</html>

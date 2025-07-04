@@ -1,0 +1,11 @@
+{
+    "Productos": [
+        {
+            "id": 1,
+            "Producto": "Manzana",
+            "Precio": 1500,
+            "Categoria": "Frutas",
+            "FechaCreacion": "2025-07-04T10:00:00Z"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 100%;
+  margin: 0;
+  background-color: #7489ff;
+  margin-top: 50px;
+}
+.contenedor {
+  margin: auto;
+  text-align: center;
+  width: 800px;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: white;
+}
+.contenedor input,
+select,
+button {
+  border-radius: 10px;
+  margin: 5px;
+  padding: 8px;
+  font-size: 16px;
+}
+.contenedor button {
+  cursor: pointer;
+  background-color: #085fff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.contenedor button:hover {
+  background-color: #ff00c8;
+}
+.producto {
+  background: white;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
