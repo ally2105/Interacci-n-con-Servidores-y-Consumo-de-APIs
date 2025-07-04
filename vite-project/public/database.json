@@ -1,11 +1,18 @@
 {
-    "Productos": [
-        {
-            "id": 1,
-            "Producto": "Manzana",
-            "Precio": 1500,
-            "Categoria": "Frutas",
-            "FechaCreacion": "2025-07-04T10:00:00Z"
-        }
-    ]
+  "Productos": [
+    {
+      "Producto": "pera",
+      "Precio": 34515353,
+      "Categoria": "Frutas",
+      "FechaCreacion": "2025-07-04T20:42:23.251Z",
+      "id": "416e"
+    },
+    {
+      "id": "b0cc",
+      "Producto": "manzana",
+      "Precio": 100000,
+      "Categoria": "Frutas",
+      "FechaCreacion": "2025-07-04T20:42:45.027Z"
+    }
+  ]
 }
